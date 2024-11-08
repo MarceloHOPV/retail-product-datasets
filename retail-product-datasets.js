@@ -1,35 +1,44 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Caminho relativo para o arquivo .txt (assumindo que está na mesma pasta do HTML)
     const txtFilePath = 'datasets.txt';
 
-    // Faz o fetch do arquivo .txt
     fetch(txtFilePath)
-        .then(response => response.text()) // Converte a resposta para texto
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Erro ao carregar o arquivo: ' + response.statusText);
+            }
+            return response.text();
+        })
         .then(data => {
-            // Divide o conteúdo em linhas com base nas quebras de linha
             const datasets = data.split('\n');
-
-            // Seleciona o contêiner principal onde os itens serão adicionados
             const listContainer = document.getElementById("dataset-list");
-
-            // Cria o contêiner interno com bordas laterais
             const listInner = document.createElement("div");
             listInner.classList.add("list-inner");
 
-            // Adiciona cada linha do arquivo como um item à lista
             datasets.forEach((dataset) => {
-                if (dataset.trim()) { // Verifica se a linha não está vazia
+                if (dataset.trim()) {
+                    const [col1, col2] = dataset.split(';'); // Divide a linha em duas partes
+
                     const item = document.createElement("div");
                     item.classList.add("item");
-                    item.textContent = dataset;
+
+                    const column1 = document.createElement("div");
+                    column1.classList.add("column");
+                    column1.textContent = col1 ? col1.trim() : ""; // Define o texto da primeira coluna
+
+                    const column2 = document.createElement("div");
+                    column2.classList.add("column");
+                    column2.textContent = col2 ? col2.trim() : ""; // Define o texto da segunda coluna
+
+                    item.appendChild(column1);
+                    item.appendChild(column2);
                     listInner.appendChild(item);
                 }
             });
 
-            // Adiciona o contêiner interno ao contêiner principal
             listContainer.appendChild(listInner);
         })
         .catch(error => {
             console.error('Erro ao carregar o arquivo:', error);
+            document.getElementById("dataset-list").textContent = "Erro ao carregar os dados.";
         });
 });

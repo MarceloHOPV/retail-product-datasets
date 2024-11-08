@@ -1,4 +1,12 @@
-Produto A
-Produto B
-Produto C
-Produto D
+https://universe.roboflow.com/zavala/supermercado-tgtcj;cafe-nescafe
+https://universe.roboflow.com/a-uk2q4/object_detection-zto5g-wrgrj;Aqua 600ml, Chips Packet, Deodorant, Drink, Indomie Ayam Bawang, Indomie Goreng, Le Minerale 600ml, Mie Sedaap, Milo 110ml, Potabee, Rollon, Sabun Lifebuoy, Sariwangi Original, Shampoo, Shower Gel, Silverqueen Chunky Bar, Sprite, Teh Kepala Djenggot, Tisu Nice, Tisu Paseo, Tooth-Paste, Toothbrush, Toothpaste, Ultramilk 250ml, Ultramilk Coklat 125ml, Ultramilk Strawberry, medicine, undefined
+https://universe.roboflow.com/lethanhcong2004/monster_energy;Monster: assault, assolutely zero, juice, khaos, khaotic, mango, monarch, none, original, rosa, ultra black, ultra paradise, ultra white, watermelon, zero sugar
+https://universe.roboflow.com/walysson/reconhecimento-de-produtos;coca-cola-2L
+https://universe.roboflow.com/2-qv1hc/yolov8_redbull_; redbull
+--------------------------------------------------------------Not Classified--------------------------------------------------------------;-------------------
+https://universe.roboflow.com/products-detection-em7t0/arguments_images_output;Retail Products (Not Classified)
+https://universe.roboflow.com/cctv-frezy/xyz-p7idy;Retail Products (Not Classified)
+https://universe.roboflow.com/muni-prasad/retail-api-key;Retail Products (Not Classified)
+https://universe.roboflow.com/muni-prasad/yolo-v8-0aw05;Retail Products (Not Classified)
+https://universe.roboflow.com/beyond-seek-technologies-pvt-ltd/shopeg-images1;Retail Products (Not Classified)
+http://surl.li/rmhwsb;Retail Products (Not Classified)

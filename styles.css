@@ -18,24 +18,37 @@ body {
 
 #dataset-list {
     width: 80%;
-    margin: 20px auto 0; /* Espaço entre o título e a lista */
+    margin: 20px auto 0;
+    background-color: rgb(0,0,100)
 }
 
 .list-inner {
-    border-top: 2px solid #ccc;    /* Borda superior para o contêiner interno */
-    border-left: 2px solid #ccc;   /* Borda esquerda do contêiner interno */
-    border-right: 2px solid #ccc;  /* Borda direita do contêiner interno */
-    border-bottom: 2px solid #ccc; /* Borda inferior para o contêiner interno */
+    border-top: 2px solid #bbb;    /* Borda superior do contêiner interno */
+    border-bottom: 2px solid #bbb; /* Borda inferior do contêiner interno */
+    border-left: 2px solid #bbb;   /* Borda esquerda do contêiner interno */
+    border-right: 2px solid #bbb;  /* Borda direita do contêiner interno */
 }
 
 .item {
+    display: flex;                   /* Exibe as colunas lado a lado */
+    justify-content: space-between;  /* Espaço entre as colunas */
     padding: 10px;
-    border-bottom: 1px solid #ccc; /* Linha de separação entre itens */
+    border-bottom: 1px solid #bbb;   /* Linha de separação entre itens */
     color: white;
-    text-align: center;
     font-size: 20px;
 }
 
 .item:last-child {
     border-bottom: none; /* Remove a borda inferior do último item */
+}
+
+.column:first-child {
+    width: 75%;                      /* A primeira coluna ocupa 75% da largura */
+    border-right: 1px solid #bbb;     /* Linha separadora entre as colunas */
+    padding-right: 10px;
+}
+
+.column:last-child {
+    width: 25%;                      /* A segunda coluna ocupa 25% da largura */
+    text-align: center;              /* Centraliza o texto da segunda coluna */
 }
