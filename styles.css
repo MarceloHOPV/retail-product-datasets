@@ -1,5 +1,41 @@
-body{
-    margin:0;
-    background-color: rgb(150, 50, 195);
+h1 {
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #0066c3;
     text-align: center;
+}
+
+#minha-imagem {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: auto;
+}
+
+#dataset-list {
+    width: 80%;
+    margin: 20px auto 0; /* Espaço entre o título e a lista */
+}
+
+.list-inner {
+    border-top: 2px solid #ccc;    /* Borda superior para o contêiner interno */
+    border-left: 2px solid #ccc;   /* Borda esquerda do contêiner interno */
+    border-right: 2px solid #ccc;  /* Borda direita do contêiner interno */
+    border-bottom: 2px solid #ccc; /* Borda inferior para o contêiner interno */
+}
+
+.item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Linha de separação entre itens */
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.item:last-child {
+    border-bottom: none; /* Remove a borda inferior do último item */
 }
