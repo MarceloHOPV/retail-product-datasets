@@ -1,10 +1,10 @@
-# Como Contribuir
+# How to Contribute
 
-Obrigado por querer contribuir! Siga estas instruções:
+Thank you for wanting to contribute! Please follow these instructions:
 
-1. Faça um fork do repositório.
-2. Clone o fork para o seu computador.
-3. Adicione os dados do dataset no arquivo `datasets.txt`, seguindo este formato:
-    - `"link_do_repositório , classes_presentes_no_dataset"`
-4. Faça um commit com uma mensagem descritiva, como: "Adicionado o dataset [Nome do Dataset]".
-5. Envie um pull request, preenchendo todas as informações do template.
+1. Fork this repository.
+2. Clone the forked repository to your local machine.
+3. Add the dataset information to the `datasets.txt` file using the following format:
+    - `"repository_link , classes_present_in_the_dataset"`
+4. Commit your changes with a descriptive message, such as: "Added the dataset [Dataset Name]".
+5. Submit a pull request, ensuring all information in the template is filled out.

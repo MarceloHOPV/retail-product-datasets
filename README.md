@@ -1,2 +1,5 @@
 # retail-product-datasets
-Repositório com datasets de visão computacional para IA, focados em identificar e classificar produtos no varejo. Inclui imagens rotuladas e organizadas por categoria, ideais para treinar modelos de reconhecimento de imagem e facilitar aplicações de automação e monitoramento em estabelecimentos varejistas.
+
+## Repository with computer vision datasets for AI, focused on identifying and classifying retail products. It includes labeled images organized by category, ideal for training image recognition models and facilitating automation and monitoring applications in retail establishments.
+
+# Contribute to expanding our dataset catalog and help the computer vision community!

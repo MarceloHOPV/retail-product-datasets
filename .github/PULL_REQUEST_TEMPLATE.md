@@ -1,17 +1,16 @@
-### Descrição da Contribuição
+### Contribution Description
 
-Por favor, preencha as informações abaixo:
+Please fill in the information below:
 
-1. Nome do dataset:
-2. Link para o dataset:
-3. Classes contidas no dataset:
-4. Observações (opcional):
+1. Dataset Name:
+2. Dataset Link:
+3. Classes included in the dataset:
+4. Notes (optional):
 
 ### Checklist
 
-- [ ] Verifiquei se o link está acessível.
-- [ ] O dataset é relevante para visão computacional.
-- [ ] Segui o formato do arquivo `datasets.txt`.
+- [ ] I have verified that the link is accessible.
+- [ ] The dataset is relevant to computer vision.
+- [ ] I followed the format of the `datasets.txt` file.
 
-### Exemplo no arquivo `datasets.txt`
-
+### Example in the `datasets.txt` file
