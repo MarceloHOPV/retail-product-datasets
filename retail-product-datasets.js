@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function updateFilteredList(datasets) {
     const activeFilters = Array.from(
       document.querySelectorAll(".filter-checkbox:checked")
-    ).map((checkbox) => checkbox.value); // Obtém os valores dos checkboxes marcados
+    ).map((checkbox) => checkbox.value);
     const filteredDatasets = filterDatasets(datasets, activeFilters);
     renderDatasets(filteredDatasets);
   }
