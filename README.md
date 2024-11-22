@@ -1,9 +1,8 @@
 # retail-product-datasets
 
-## Repository for computer vision datasets focused on AI, aimed at identifying and classifying retail products. The datasets include labeled images organized by category, making them ideal for training image recognition models and enabling automation and monitoring applications in retail environments.
+Repository for computer vision datasets focused on AI, aimed at identifying and classifying retail products. The datasets include labeled images organized by category, making them ideal for training image recognition models and enabling automation and monitoring applications in retail environments.
 
 ---
-##
 
 ## This repository is open for contributions!
 
