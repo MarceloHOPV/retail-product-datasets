@@ -1,12 +1,12 @@
-https://universe.roboflow.com/zavala/supermercado-tgtcj;cafe-nescafe
+﻿https://universe.roboflow.com/zavala/supermercado-tgtcj;coffee-Nescafé
 https://universe.roboflow.com/a-uk2q4/object_detection-zto5g-wrgrj;Aqua 600ml, Chips Packet, Deodorant, Drink, Indomie Ayam Bawang, Indomie Goreng, Le Minerale 600ml, Mie Sedaap, Milo 110ml, Potabee, Rollon, Sabun Lifebuoy, Sariwangi Original, Shampoo, Shower Gel, Silverqueen Chunky Bar, Sprite, Teh Kepala Djenggot, Tisu Nice, Tisu Paseo, Tooth-Paste, Toothbrush, Toothpaste, Ultramilk 250ml, Ultramilk Coklat 125ml, Ultramilk Strawberry, medicine, undefined
 https://universe.roboflow.com/lethanhcong2004/monster_energy;Monster: assault, assolutely zero, juice, khaos, khaotic, mango, monarch, none, original, rosa, ultra black, ultra paradise, ultra white, watermelon, zero sugar
 https://universe.roboflow.com/walysson/reconhecimento-de-produtos;coca-cola-2L
 https://universe.roboflow.com/2-qv1hc/yolov8_redbull_; redbull
 https://universe.roboflow.com/marcelo-henrique-lopes-ferreira-5umxe/dataset_final-1ztg7;apple, chocolate, cloth, cononut_water, detergent, fanta, gelatin, kuat, mustard, nescau, peanut, pear, sauce, shoyo, sponge, tangerine, tea, treloso
-https://github.com/marcusklasson/GroceryStoreDataset; frutras
-https://universe.roboflow.com/arthur-fryfi/food-products-qzq6g/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true; banana, beans, blackbeans, bread, coffee, flour, milk, oil, rice; sugar
-https://universe.roboflow.com/testerwx3g/projeto-y2edr/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true; Achocolatado, Caixa-de-Fósforo, Creme de Leite, Gelatina, Molho de Tomate, Pasta-de-Dente, Sabonete
+https://github.com/marcusklasson/GroceryStoreDataset; fruits
+https://universe.roboflow.com/arthur-fryfi/food-products-qzq6g/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true; banana, beans, blackbeans, bread, coffee, flour, milk, oil, rice, sugar
+https://universe.roboflow.com/testerwx3g/projeto-y2edr/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true; Chocolate Powder, Matchbox, Heavy Cream, Gelatin, Tomato Sauce, Toothpaste, Soap
 https://universe.roboflow.com/butiabots2021/objects-larc-2021/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true; Alcohol Bottle, Apple, Banana, Beer can, Carrot, Chocolate Milk, Chocolate Powder, Coconut Milk, Cracker, Gelatine, Ketchup, Mayonnaise, Napkin, Popcorn, Soap, Soda can, Toothpaste, Yeast
 https://universe.roboflow.com/daniella-camargo/all-ftpvt; all purpose cleaner, cereal, chips, desinfectant, juice, milk, popcorn, soap, soda
 --------------------------------------------------------------Not Classified--------------------------------------------------------------;-------------------
