@@ -1,15 +1,34 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>retail-product-datasets</title>
     <h1>List of Retail Product Datasets</h1>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <img src="INATEL.jpg" alt="Imagem" id="minha-imagem">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img src="INATEL.jpg" alt="Imagem" id="minha-imagem" />
+    <div id="filters">
+      <h2>Filters</h2>
+      <label>
+        <input type="checkbox" class="filter-checkbox" value="Chocolate" />
+        Chocolate
+      </label>
+      <label>
+        <input type="checkbox" class="filter-checkbox" value="Alcohol" />
+        Alcohol
+      </label>
+      <label>
+        <input type="checkbox" class="filter-checkbox" value="Milk" />
+        Milk
+      </label>
+      <label>
+        <input type="checkbox" class="filter-checkbox" value="Oil" />
+        Oil
+      </label>
+    </div>
     <div id="dataset-list"></div>
     <!--<ol id="dataset-list"></ol>-->
     <script src="retail-product-datasets.js"></script>
-</body>
+  </body>
 </html>
