@@ -60,6 +60,13 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       const datasets = data.split("\n");
       renderDatasets(datasets);
+
+      const filterCheckboxes = document.querySelectorAll(".filter-checkbox");
+      filterCheckboxes.forEach((checkbox) => {
+        checkbox.addEventListener("change", () => {
+          updateFilteredList(datasets);
+        });
+      });
     })
     .catch((error) => {
       console.error("Erro ao carregar o arquivo:", error);
