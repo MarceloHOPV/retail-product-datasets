@@ -20,7 +20,7 @@ Please ensure that all the following requirements are met before submitting your
 - [ ] I have verified that the provided dataset link is accessible.
 - [ ] The dataset is relevant to computer vision tasks.
 - [ ] The dataset entry in the `datasets.txt` file follows the required format:  
-   - `"repository_link , classes_present_in_the_dataset" , general_class`
+   - `"repository_link ; classes_present_in_the_dataset" ; general_class`
 
 ---
 
