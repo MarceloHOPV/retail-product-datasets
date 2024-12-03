@@ -66,4 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("dataset-list").textContent =
         "Erro ao carregar os dados.";
     });
+  // Função para redirecionamento
+  window.goToGitHub = function () {
+    window.location.href = "https://github.com/MarceloHOPV/retail-product-datasets";
+  };
 });

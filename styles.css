@@ -52,3 +52,21 @@ body {
     width: 25%;                      /* A segunda coluna ocupa 25% da largura */
     text-align: center;              /* Centraliza o texto da segunda coluna */
 }
+
+.contribute-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Cor do fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho do texto */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Mãozinha ao passar o mouse */
+    text-decoration: none; /* Sem sublinhado */
+    text-align: center;
+}
+
+.contribute-button:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
+
