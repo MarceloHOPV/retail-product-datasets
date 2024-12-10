@@ -1,72 +1,76 @@
 h1 {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 body {
-    margin: 0;
-    background-color: #0066c3;
-    text-align: center;
+  margin: 0;
+  background-color: #0066c3;
+  text-align: center;
 }
 
 #minha-imagem {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100px;
-    height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: auto;
 }
 
 #dataset-list {
-    width: 80%;
-    margin: 20px auto 0;
-    background-color: rgb(0,0,120)
+  width: 80%;
+  margin: 20px auto 0;
+  background-color: rgb(0, 0, 120);
 }
 
 .list-inner {
-    border-top: 2px solid #bbb;    /* Borda superior do contêiner interno */
-    border-bottom: 2px solid #bbb; /* Borda inferior do contêiner interno */
-    border-left: 2px solid #bbb;   /* Borda esquerda do contêiner interno */
-    border-right: 2px solid #bbb;  /* Borda direita do contêiner interno */
+  border-top: 2px solid #bbb; /* Borda superior do contêiner interno */
+  border-bottom: 2px solid #bbb; /* Borda inferior do contêiner interno */
+  border-left: 2px solid #bbb; /* Borda esquerda do contêiner interno */
+  border-right: 2px solid #bbb; /* Borda direita do contêiner interno */
 }
 
 .item {
-    display: flex;                   /* Exibe as colunas lado a lado */
-    justify-content: space-between;  /* Espaço entre as colunas */
-    padding: 10px;
-    border-bottom: 1px solid #bbb;   /* Linha de separação entre itens */
-    color: white;
-    font-size: 20px;
+  display: flex; /* Exibe as colunas lado a lado */
+  justify-content: space-between; /* Espaço entre as colunas */
+  padding: 10px;
+  border-bottom: 1px solid #bbb; /* Linha de separação entre itens */
+  color: white;
+  font-size: 20px;
 }
 
 .item:last-child {
-    border-bottom: none; /* Remove a borda inferior do último item */
+  border-bottom: none; /* Remove a borda inferior do último item */
+}
+a {
+  text-decoration: none; /* Remove sublinhado */
+  color: inherit; /* Usa a cor herdada */
 }
 
 .column:first-child {
-    width: 75%;                      /* A primeira coluna ocupa 75% da largura */
-    border-right: 1px solid #bbb;     /* Linha separadora entre as colunas */
-    padding-right: 10px;
+  width: 75%; /* A primeira coluna ocupa 75% da largura */
+
+  border-right: 1px solid #bbb; /* Linha separadora entre as colunas */
+  padding-right: 10px;
 }
 
 .column:last-child {
-    width: 25%;                      /* A segunda coluna ocupa 25% da largura */
-    text-align: center;              /* Centraliza o texto da segunda coluna */
+  width: 25%; /* A segunda coluna ocupa 25% da largura */
+  text-align: center; /* Centraliza o texto da segunda coluna */
 }
 
 .contribute-button {
-    display: inline-block;
-    background-color: #4CAF50; /* Cor do fundo */
-    color: white; /* Cor do texto */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho do texto */
-    border: none; /* Sem borda */
-    border-radius: 5px; /* Borda arredondada */
-    cursor: pointer; /* Mãozinha ao passar o mouse */
-    text-decoration: none; /* Sem sublinhado */
-    text-align: center;
+  display: inline-block;
+  background-color: #4caf50; /* Cor do fundo */
+  color: white; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho do texto */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer; /* Mãozinha ao passar o mouse */
+  text-decoration: none; /* Sem sublinhado */
+  text-align: center;
 }
 
 .contribute-button:hover {
-    background-color: #45a049; /* Cor ao passar o mouse */
+  background-color: #45a049; /* Cor ao passar o mouse */
 }
-
