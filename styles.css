@@ -29,7 +29,7 @@ body {
   border-right: 2px solid #bbb; /* Borda direita do contêiner interno */
 }
 
-.filters {
+.dataset-list {
   display: flex;
   flex-direction: row;
 }
