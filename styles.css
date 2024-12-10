@@ -29,10 +29,12 @@ body {
   border-right: 2px solid #bbb; /* Borda direita do contêiner interno */
 }
 
-.dataset-list {
+#filter-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
+
 .item {
   display: flex; /* Exibe as colunas lado a lado */
   justify-content: space-between; /* Espaço entre as colunas */

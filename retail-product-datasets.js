@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("O script foi carregado corretamente!");
-
   const txtFilePath = "datasets.txt";
 
   function extractCategories(datasets) {
@@ -68,27 +66,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function renderFilters(categories, datasets) {
     const filterContainer = document.getElementById("filter-container");
-    filterContainer.innerHTML = ""; // Limpa os filtros atuais
+    filterContainer.innerHTML = "";
 
     categories.forEach((category) => {
-      const checkbox = document.createElement("input");
-      checkbox.type = "checkbox";
-      checkbox.value = category;
-      checkbox.classList.add("filter-checkbox");
+      if (category.trim() !== "") {
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.value = category;
+        checkbox.classList.add("filter-checkbox");
 
-      const label = document.createElement("label");
-      label.textContent = category;
+        const label = document.createElement("label");
+        label.textContent = category;
 
-      const filterItem = document.createElement("div");
-      filterItem.classList.add("filter-item");
-      filterItem.appendChild(checkbox);
-      filterItem.appendChild(label);
+        const filterItem = document.createElement("div");
+        filterItem.classList.add("filter-item");
+        filterItem.appendChild(checkbox);
+        filterItem.appendChild(label);
 
-      filterContainer.appendChild(filterItem);
+        filterContainer.appendChild(filterItem);
+      }
+    });
 
-      // Adiciona evento de mudança para os checkboxes
+    const filterCheckboxes = document.querySelectorAll(".filter-checkbox");
+    filterCheckboxes.forEach((checkbox) => {
       checkbox.addEventListener("change", () => {
-        updateFilteredList(datasets); // Passa 'datasets' aqui para a função
+        updateFilteredList(datasets);
       });
     });
   }
@@ -102,7 +104,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .then((data) => {
       const datasets = data.split("\n");
-      console.log("Datasets carregados:", datasets); // Verifique os datasets carregados
 
       renderDatasets(datasets);
 
