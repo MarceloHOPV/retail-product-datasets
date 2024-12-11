@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const txtFilePath = "datasets.txt";
 
   function extractCategories(datasets) {
-    const categories = datasets.map((dataset) => {
+    const categories = datasets.flatMap((dataset) => {
       const [, , col3] = dataset.split(";");
-      return col3 ? col3.trim() : "";
+      return col3 ? col3.split(",").map((cat) => cat.trim()) : [];
     });
     console.log("Categorias extraídas:", categories);
     // Remover duplicatas usando Set
