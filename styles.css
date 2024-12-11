@@ -19,7 +19,7 @@ body {
 #dataset-list {
   width: 80%;
   margin: 20px auto 0;
-  background-color: rgb(0, 0, 120);
+  background-color: rgb(15, 15, 15);
 }
 
 .list-inner {
@@ -66,7 +66,7 @@ a {
 
 .contribute-button {
   display: inline-block;
-  background-color: rgb(0, 0, 120);; /* Cor do fundo */
+  background-color: rgb(15, 15, 15); /* Cor do fundo */
   color: white; /* Cor do texto */
   padding: 10px 20px; /* Espaçamento interno */
   font-size: 16px; /* Tamanho do texto */
@@ -78,5 +78,5 @@ a {
 }
 
 .contribute-button:hover {
-  background-color: rgb(0, 0, 100); /* Cor ao passar o mouse */
+  background-color: rgb(0, 0, 0); /* Cor ao passar o mouse */
 }
