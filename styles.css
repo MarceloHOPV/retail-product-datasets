@@ -86,6 +86,22 @@ a {
   text-align: center;
 }
 
+.modal {
+  position: absolute;
+  top: 5.9rem;
+  right: 5rem;
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  border-radius: 7px;
+}
+
 .contribute-button:hover {
   background-color: rgb(0, 0, 0); /* Cor ao passar o mouse */
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
 }
