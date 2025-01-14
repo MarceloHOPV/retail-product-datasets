@@ -15,3 +15,8 @@ https://universe.roboflow.com/muni-prasad/retail-api-key;Retail Products (Not Cl
 https://universe.roboflow.com/muni-prasad/yolo-v8-0aw05;Retail Products (Not Classified);Uncategorized
 https://universe.roboflow.com/beyond-seek-technologies-pvt-ltd/shopeg-images1;Retail Products (Not Classified);Uncategorized
 http://surl.li/rmhwsb;Retail Products (Not Classified);Uncategorized
+https://universe.roboflow.com/elijah-samson/supermarket-products;Daawat rice, \rice, c, d, pearl rice, products, rice; Rice
+https://universe.roboflow.com/chaukeprecy-gmail-com/precious_images; Object Detection; Beans
+https://universe.roboflow.com/lentes-de-asistencia-inteligente/pan-bimbo; Pan-Bimbo; Bread
+https://universe.roboflow.com/aussiestuff/food-al9wr; milk; Milk
+https://universe.roboflow.com/nus2/sugar_3000-3999g_nonhalal_nonhealthy; Sugar_3000-3999g_NonHalal_NonHealthy; Sugar
