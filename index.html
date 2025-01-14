@@ -12,8 +12,10 @@
       <img src="INATEL.jpg" alt="Imagem" id="minha-imagem" />
       <h1>List of Retail Product Datasets</h1>
       <div class="buttons">
-        <button class="contribute-button" onclick="">Training Tips</button>
-        <div class="modal">
+        <button class="contribute-button" onclick="openModal()">
+          Training Tips
+        </button>
+        <div class="modal" id="modal" hidden>
           <div class="content-modal"></div>
         </div>
         <button class="contribute-button" onclick="goToGitHub()">
