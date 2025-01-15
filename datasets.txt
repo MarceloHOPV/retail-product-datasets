@@ -20,3 +20,8 @@ https://universe.roboflow.com/chaukeprecy-gmail-com/precious_images; Object Dete
 https://universe.roboflow.com/lentes-de-asistencia-inteligente/pan-bimbo; Pan-Bimbo; Bread
 https://universe.roboflow.com/aussiestuff/food-al9wr; milk; Milk
 https://universe.roboflow.com/nus2/sugar_3000-3999g_nonhalal_nonhealthy; Sugar_3000-3999g_NonHalal_NonHealthy; Sugar
+https://universe.roboflow.com/sbnia/leite-ninho;powdered milk; powdered milk
+https://universe.roboflow.com/butiabots/drinks-object-detection; Coconut Water, Coke, Ice Tea;  Soft Drinks, Coke, Tea
+https://universe.roboflow.com/personal-g5mzf/box-detection-rizru; Cornstarch, Condensed milk; Cornstarch, Condensed milk
+https://universe.roboflow.com/dd-m2gku/oreo-lrepm; Oreo Biscuit; Biscuit
+https://universe.roboflow.com/trabalho-de-visao/trento-flavors; Chocolate, Creme, Massimo-Branco-Cookies, Massimo-Chocolate, Massimo-Dark, Massimo-Nuts, Massimo-Pacoca, Torta-Limao; Trento Flavors
