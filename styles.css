@@ -90,12 +90,20 @@ a {
   position: absolute;
   top: 5.9rem;
   right: 5rem;
-  background-color: white;
+  background-color: rgb(235, 237, 255);
   width: 300px;
   height: 400px;
   border-radius: 7px;
 }
 
+.content-modal {
+  padding: 2px 30px;
+  align-items: center;
+  text-align: start;
+}
+.training-list {
+  text-align: start;
+}
 .contribute-button:hover {
   background-color: rgb(0, 0, 0); /* Cor ao passar o mouse */
 }
