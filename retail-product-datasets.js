@@ -124,4 +124,10 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href =
       "https://github.com/MarceloHOPV/retail-product-datasets";
   };
+
+  window.openModal = function () {
+    const modal = document.getElementById("modal");
+
+    modal.hidden = !modal.hidden;
+  };
 });

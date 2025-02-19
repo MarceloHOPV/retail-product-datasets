@@ -12,9 +12,82 @@
       <img src="INATEL.jpg" alt="Imagem" id="minha-imagem" />
       <h1>List of Retail Product Datasets</h1>
       <div class="buttons">
-        <button class="contribute-button" onclick="">Training Tips</button>
-        <div class="modal">
-          <div class="content-modal"></div>
+        <button class="contribute-button" onclick="openModal()">
+          Training Tips
+        </button>
+        <div class="modal" id="modal" hidden>
+          <div class="content-modal">
+            <h3 class="modal-text">
+              If you're looking to learn how to train your own model using
+              <b>YOLO</b>, simply select your desired version from the list
+              below and click the link to access the tutorial.
+            </h3>
+            <ul class="training-list">
+              <li>
+                <a
+                  href="https://docs.ultralytics.com/models/yolov3/"
+                  target="_blank"
+                  >YOLOv3</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.ultralytics.com/models/yolov4/"
+                  target="_blank"
+                  >YOLOv4</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.ultralytics.com/models/yolov5/"
+                  target="_blank"
+                  >YOLOv5</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.ultralytics.com/models/yolov6/"
+                  target="_blank"
+                  >YOLOv6</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.ultralytics.com/models/yolov7/"
+                  target="_blank"
+                  >YOLOv7</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.ultralytics.com/models/yolov8/"
+                  target="_blank"
+                  >YOLOv8</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.ultralytics.com/models/yolov9/"
+                  target="_blank"
+                  >YOLOv9</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.ultralytics.com/models/yolov10/"
+                  target="_blank"
+                  >YOLOv10</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.ultralytics.com/models/yolo11/"
+                  target="_blank"
+                  >YOLOv11</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
         <button class="contribute-button" onclick="goToGitHub()">
           Contribute

@@ -90,12 +90,21 @@ a {
   position: absolute;
   top: 5.9rem;
   right: 5rem;
-  background-color: white;
+  background-color: rgb(235, 237, 255);
   width: 300px;
-  height: 400px;
+  min-height: 400px;
   border-radius: 7px;
 }
 
+.content-modal {
+  padding: 2px 30px;
+  align-items: center;
+  text-align: start;
+}
+.training-list {
+  text-align: start;
+  padding: 3px 5px;
+}
 .contribute-button:hover {
   background-color: rgb(0, 0, 0); /* Cor ao passar o mouse */
 }
@@ -104,4 +113,20 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+}
+
+.modal-text {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+ul > li {
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 18px;
+  padding-bottom: 7px;
+}
+
+ul > li:hover {
+  color: rgb(3, 66, 125);
 }
