@@ -3,12 +3,12 @@ https://universe.roboflow.com/a-uk2q4/object_detection-zto5g-wrgrj;Aqua 600ml, C
 https://universe.roboflow.com/lethanhcong2004/monster_energy;Monster: assault, assolutely zero, juice, khaos, khaotic, mango, monarch, none, original, rosa, ultra black, ultra paradise, ultra white, watermelon, zero sugar;Energy Drinks
 https://universe.roboflow.com/walysson/reconhecimento-de-produtos;coca-cola-2L;Soft Drinks
 https://universe.roboflow.com/2-qv1hc/yolov8_redbull_;redbull;Energy Drinks
-https://universe.roboflow.com/marcelo-henrique-lopes-ferreira-5umxe/dataset_final-1ztg7;apple, chocolate, cloth, cononut_water, detergent, fanta, gelatin, kuat, mustard, nescau, peanut, pear, sauce, shoyo, sponge, tangerine, tea, treloso;Groceries
-https://github.com/marcusklasson/GroceryStoreDataset;fruits;Produce
-https://universe.roboflow.com/arthur-fryfi/food-products-qzq6g/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true;banana, beans, blackbeans, bread, coffee, flour, milk, oil, rice, sugar;Groceries
-https://universe.roboflow.com/testerwx3g/projeto-y2edr/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true;Chocolate Powder, Matchbox, Heavy Cream, Gelatin, Tomato Sauce, Toothpaste, Soap;Personal Care
-https://universe.roboflow.com/butiabots2021/objects-larc-2021/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true;Alcohol Bottle, Apple, Banana, Beer can, Carrot, Chocolate Milk, Chocolate Powder, Coconut Milk, Cracker, Gelatine, Ketchup, Mayonnaise, Napkin, Popcorn, Soap, Soda can, Toothpaste, Yeast;Groceries, Personal Care
-https://universe.roboflow.com/daniella-camargo/all-ftpvt;all purpose cleaner, cereal, chips, desinfectant, juice, milk, popcorn, soap, soda;Mixed Products, Packaged Foods, Personal Care
+https://universe.roboflow.com/marcelo-henrique-lopes-ferreira-5umxe/dataset_final-1ztg7;apple, chocolate, cloth, cononut_water, detergent, fanta, gelatin, kuat, mustard, nescau, peanut, pear, sauce, shoyo, sponge, tangerine, tea, treloso;Chocolate, Detergent, Soft Drinks, Gelatin, Mustard, Chocolate, Sauce, Sponge, Tea, Fruits
+https://github.com/marcusklasson/GroceryStoreDataset;fruits;Fruits
+https://universe.roboflow.com/arthur-fryfi/food-products-qzq6g/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true;banana, beans, blackbeans, bread, coffee, flour, milk, oil, rice, sugar;Beans, Bread, Cofee, Milk, Oil, Rice
+https://universe.roboflow.com/testerwx3g/projeto-y2edr/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true;Chocolate Powder, Matchbox, Heavy Cream, Gelatin, Tomato Sauce, Toothpaste, Soap;Chocolate, Gelatin, Tomato Sauce, Toothpaste, Soap
+https://universe.roboflow.com/butiabots2021/objects-larc-2021/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true;Alcohol Bottle, Apple, Banana, Beer can, Carrot, Chocolate Milk, Chocolate Powder, Coconut Milk, Cracker, Gelatine, Ketchup, Mayonnaise, Napkin, Popcorn, Soap, Soda can, Toothpaste, Yeast; Beer, Milk, Chocolate, Gelatine, Ketchup, Mayonnaise, Soap, Soda, Toothpaste
+https://universe.roboflow.com/daniella-camargo/all-ftpvt;all purpose cleaner, cereal, chips, desinfectant, juice, milk, popcorn, soap, soda;Mixed Products, Packaged Foods, Soap, Milk, Juice, Soda, Cereal, Desinfectant, Popcorn
 https://universe.roboflow.com/products-detection-em7t0/arguments_images_output;Retail Products (Not Classified);Uncategorized
 https://universe.roboflow.com/cctv-frezy/xyz-p7idy;Retail Products (Not Classified);Uncategorized
 https://universe.roboflow.com/muni-prasad/retail-api-key;Retail Products (Not Classified);Uncategorized
