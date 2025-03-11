@@ -31,4 +31,6 @@ https://universe.roboflow.com/yolomodel-md0gx/oral-care-smollan; closeup, crest 
 https://universe.roboflow.com/ouss-wknp3/d-9hylv; 3; Pasta 
 https://universe.roboflow.com/test-iwr92/tubs-cocdp; tubs; Ice Cream
 https://universe.roboflow.com/rethinkai/vision-axm0g; Cannelloni; Coude; Escargot; Farfalle; Fell; Papillon; Ressort; Spaghetti; Tagliatelle; lasagne; plume ; Pasta
-https://universe.roboflow.com/sebastian-9ipwr/pan-ltjss; 31297-MOLDE 10PCTINTEGRAL SN CORTEZA 450G BIM GYE, 41684-MOLDE SANDUCHERO 800G SUP GYE, 505112-MOLDE BLANCO TRADICIONAL 550g GYE, 505283-MOLDE BLANCO SIN CORTEZA 1P 450G BOL SUP GYE, 505529-MOLDE BLANCO CERO CERO 1P 600g BOLSA BIM GYE, 536-MOLDE BLANCO TRADICIONAL 525g GYE, MOLDE BLANCO CON ACRILECHE 580G BIM GYE; Bread
+https://universe.roboflow.com/sebastian-9ipwr/pan-ltjss; 31297-MOLDE 10PCTINTEGRAL SN CORTEZA 450G BIM GYE, 41684-MOLDE SANDUCHERO 800G SUP GYE, 505112-MOLDE BLANCO TRADICIONAL 550g GYE, 505283-MOLDE 
+BLANCO SIN CORTEZA 1P 450G BOL SUP GYE, 505529-MOLDE BLANCO CERO CERO 1P 600g BOLSA BIM GYE, 536-MOLDE BLANCO TRADICIONAL 525g GYE, MOLDE BLANCO CON ACRILECHE 580G BIM GYE; Bread
+https://universe.roboflow.com/ouss-wknp3/d-9hylv;3;Pasta
